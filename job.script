@@ -1,0 +1,13 @@
+#!/bin/bash 
+  #PBS -k o 
+  #PBS -l nodes=5:ppn=5,walltime=24:00:00 
+  #PBS -l mem=2G
+  #PBS -M gkbandep@iu.edu
+  #PBS -m abe
+  #PBS -N Classifier 
+  #PBS -j oe
+
+  module load anaconda2
+  source activate vision
+  aprun ./EmoNet.py -gpu 0
+  

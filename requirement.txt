@@ -1,0 +1,6 @@
+Keras==2.1.4
+tensorflow==1.4.0
+conda==4.5.0
+numpy==1.14.0
+statsmodels==0.8.0
+cv2==3.4.0
