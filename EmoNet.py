@@ -1,4 +1,4 @@
-#!/N/u/gkbandep/BigRed2/.conda_envs/vision/bin/python
+
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.models import Input
